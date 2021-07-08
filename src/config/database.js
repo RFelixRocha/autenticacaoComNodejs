@@ -1,10 +1,10 @@
 module.exports = {
   host: '127.0.0.1',
-  username: '',
-  password: '',
-  database: '',
+  username: 'root',
+  password: 'pwd2021',
+  database: 'auth_test_db',
   dialect: 'mysql',
-  operatorsAliases: false,
+  operatorsAliases: 0,
   logging: false,
   define: {
     timestamps: true,
